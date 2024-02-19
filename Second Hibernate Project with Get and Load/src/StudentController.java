@@ -16,6 +16,7 @@ public class StudentController {
 			s.setId(6);
 			s.setName("Kamlesh");
 			ss.save(s);
+   ss.update(s)
 			System.out.println("Record Inserted.....  "+s);
 			t.commit();
 			ss.close();
