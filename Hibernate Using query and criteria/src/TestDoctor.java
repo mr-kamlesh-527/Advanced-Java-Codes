@@ -11,10 +11,11 @@ import org.hibernate.criterion.Restrictions;
 public class TestDoctor {
 	public static void main(String[] args) {
 		Configuration cfg=new Configuration();
-		cfg.addAnnotatedClass(Doctor.class).configure("kamlesh.xml");
+	System.out.println("Started.....1");	cfg.addAnnotatedClass(Doctor.class).configure("kamlesh.xml");
 
-		SessionFactory sf=cfg.buildSessionFactory();
-
+System.out.println("Started.....");	
+	SessionFactory sf=cfg.buildSessionFactory();
+System.out.println("Started.....3");	
 		Session ss=sf.openSession();
 
 //
