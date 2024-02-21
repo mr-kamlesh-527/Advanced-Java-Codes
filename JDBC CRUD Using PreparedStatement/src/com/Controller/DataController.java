@@ -2,6 +2,7 @@ package com.Controller;
 import com.Service.*;
 public class DataController {
 	public void insert() throws Exception{
+//this is used for inserting data
 		DataService ds=new DataService();
 		ds.insert(3,"Aryan",23);
 	}
